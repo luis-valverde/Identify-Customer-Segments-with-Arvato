@@ -12,10 +12,14 @@
 
 This repository contains all my work for the Udacity's Machine Learning Introduction Nanodegree Program.
 
-The goal of this project was to identify segments of a population that form the core customer base for a mail-order
-sales company in Germany. To accomplish this, I first preprocessed and clean the data in order to convert it into an
-usable form. Then, I applied unsupervised learning techniques as dimensionality reduction and clustering to segment
-customers. Finally, I used those clusters to see which of them comprise the main user base for the company.
+The goal in this project was to build a model to identify segments of the population that form the core customer base
+for a mail-order sales company in Germany.
+
+To accomplish this, I used data preprocessing techniques (remove outliers, re-encode categorical values, feature
+scaling). Then, applied unsupervised learning techniques such as Principal Component Analysis (PCA) to reduce the
+dimensionality of the features by a 60.94%. Also, performed k-means clustering and used the elbow method to determine
+the optimal number of clusters. Finally, compared the proportion of persons in each cluster of the general population
+vs the customers to identify a target audience for the company.
 
 ## Project Overview
 
